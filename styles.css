@@ -1,0 +1,147 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700italic);
+* { padding: 0; margin: 0; }
+body { background-image: -o-linear-gradient(bottom, rgb(254,133,107) 24%, rgb(35,171,17) 62%);; font-family: 'Lato', sans-serif; letter-spacing: 1px; color: rgb(0, 0, 0);}
+ 
+header {
+    text-align: justify;
+    height: 4em;
+    padding: 2em 5%;
+    background: #000000;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase
+}
+ 
+header::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+ 
+header > div,
+header > div::before,
+header nav,
+header > div h1 {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+ 
+header > div {
+    height: 100%;
+}
+ 
+header > div::before {
+    content: '';
+    height: 100%;
+}
+ 
+header > div h1 {
+    font-size: 3em;
+    font-style: italic;
+}
+ 
+header nav a {
+    padding: 0 0.6em;
+    white-space: nowrap;
+}
+ 
+header nav a:last-child {
+    padding-right: 0;
+}
+ 
+@media screen and (max-width: 720px){
+     
+    header {
+        height: auto;
+    }
+     
+    header > div,
+    header > div h1,
+    header nav {
+        height: auto;
+        width: auto;
+        display: block;
+        text-align: center;
+    }
+     
+}
+
+.title_block h1{
+    margin-left: 42%;
+    margin-top: 4%;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.6;
+    
+}
+
+.nu-da{
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 22px;
+}
+
+#Pudge img {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    margin-left: 40%;
+    margin-top: 12%;
+}
+
+
+
+#Director{
+    margin-top: 10%;
+    position:absolute;
+    top: 60%;
+    left: 20%;
+}
+
+#Director-name{
+    margin-top: 10%;
+    position:absolute;
+    top: 67%;
+    left: 18%;
+
+}
+
+
+
+
+
+.info-block #Prikol{
+    position: absolute;
+    font-weight: bold;
+    margin-left: 40%;
+    margin-top: 7%;
+
+}
+
+.info-block{
+    max-height: 1000px;
+    height: 1000px;
+    margin-top: 100px;
+
+}
+
+header div{
+    color:#fff;
+    transition: color 0.2s linear;
+}
+
+header div:hover{
+    color:rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+header nav a{
+    color:#fff;
+    transition: color 0.2s linear;
+}
+
+header nav a:hover{
+    color:rgb(179, 255, 0);
+    cursor: pointer;
+}
