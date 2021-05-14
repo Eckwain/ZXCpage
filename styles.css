@@ -156,7 +156,7 @@ header nav a:last-child {
 }
 
 #Uborshik, #Uborshik-name {
-    margin-top: 50%;
+    margin-top: 40%;
 }
 
 #Uborshik-name {
@@ -169,4 +169,11 @@ header nav a:last-child {
     margin-left: 60%;
     width: 25%;
     
+}
+
+.container{
+max-width: 1600px;
+margin: 0px auto;
+padding: 0px 15px;
+
 }
