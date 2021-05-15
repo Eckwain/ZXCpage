@@ -100,6 +100,9 @@ button{
     
 }
 
+.col-cards{
+    margin-left: 120px
+}
 /* .card1{
     background-image: url(images/BX0mP9Y5PaM.jpg);
 
@@ -144,6 +147,10 @@ font-size: 19px;
         line-height: 13px;
         }
     
+    .col-cards{
+        margin-left: 90px
+    }
+
     .card{
         width: 150px;
         height: 150px;
@@ -191,9 +198,8 @@ font-size: 19px;
             }
         
         .card{
-            width: 100px;
-            height: 100px;
-            
+            width: 270px;
+            height: 150px;
         }
     
         h1{
@@ -230,5 +236,21 @@ font-size: 19px;
         nav ul li a:hover{
             text-decoration: underline 0.15em rgb(46, 46, 46);
             text-underline-offset: 0.05em;
+        }
+
+        .col-cards{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 0;
+        }
+
+        .row{
+            display: block;
+            align-items: center;
+        }
+
+        button{
+            margin-bottom: 20px;
         }
     }
