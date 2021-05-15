@@ -312,7 +312,7 @@ font-size: 19px;
     }
         
     
-        @media screen and (max-height:790px) {
+        @media screen and (max-height:900px) {
         
             h5{
                 font-size: 18px;
