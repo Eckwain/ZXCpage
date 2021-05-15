@@ -262,3 +262,130 @@ font-size: 19px;
             position: relative;
         }
     }
+    @media screen and (max-height:1405px) {
+    
+        h5{
+            font-size: 17px;
+        }
+    
+        .card p{
+            text-shadow: 0 0 15px white;
+            font-size: 13px;
+            line-height: 13px;
+            }
+        
+        .col-cards{
+            margin-left: 90px
+        }
+    
+        .card{
+            width: 330px;
+            height: 170px;     
+            margin: 12px 8px;   
+        }
+    
+        h1{
+            color:black;
+            font-size: 70px;
+        }
+        
+        p{
+            color:black;
+            font-size: 25px;
+            line-height: 30px;
+        }
+    
+        nav {
+            text-align: right;
+            flex: 1;
+            
+        }
+    
+        .container{
+            width: 100%;
+            height: 100vh;
+            background-color: rgb(255, 255, 255);
+            padding-left: 4%;
+            padding-right: 4%;
+            box-sizing: border-box;
+        }
+    }
+        
+    
+        @media screen and (max-height:790px) {
+        
+            h5{
+                font-size: 18px;
+            }
+        
+            .card p{
+                text-shadow: 0 0 15px white;
+                font-size: 13px;
+                line-height: 13px;
+                }
+            
+            .card{
+                width: 330px;
+                height: 170px;
+            }
+        
+            h1{
+                color:black;
+                font-size: 60px;
+            }
+            
+            p{
+                color:black;
+                font-size: 24px;
+                line-height: 24px;
+            }
+        
+            nav {
+                text-align: right;
+                flex: 1;
+                
+            }
+        
+            .container{
+                width: 100%;
+                height: 100vh;
+                background-color: rgb(255, 255, 255);
+                padding-left: 8%;
+                padding-right: 8%;
+                box-sizing: border-box;
+            }
+    
+            nav ul li{
+                margin-left: 20px;
+                display: grid;
+            }
+    
+            nav ul li a:hover{
+                text-decoration: underline 0.15em rgb(46, 46, 46);
+                text-underline-offset: 0.05em;
+            }
+    
+            .col{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            }
+    
+            .col-cards{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-left: 0;
+            }
+    
+            .row{
+                display: flex;
+                flex-direction: column;
+            }
+    
+            button{
+                margin-bottom: 20px;
+                margin-top: 30px;
+                position: relative;
+            }
+        }
