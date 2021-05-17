@@ -7,7 +7,7 @@
 .container{
     width: 100%;
     height: 100vh;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(252, 252, 254);
     padding-left: 8%;
     padding-right: 8%;
     box-sizing: border-box;
@@ -40,14 +40,14 @@ nav ul li a{
     text-decoration: none;
     color: black;
     font-weight: 700;
-    text-decoration: underline 0.15em rgb(255, 255, 255, 0);
-    text-underline-offset: 0.2em;
-    transition: text-decoration-color 300ms, text-underline-offset 300ms;
+    text-decoration: underline 0.01em rgb(255, 255, 255, 0);
+    text-underline-offset: 0.4em;
+    transition: text-decoration-color ease 300ms, text-underline-offset 300ms;
 }
 
 nav ul li a:hover{
-    text-decoration: underline 0.15em rgb(46, 46, 46);
-    text-underline-offset: 0.4em;
+    text-decoration: underline 0.15em rgb(46, 46, 46, 80);
+    text-underline-offset: 0.2em;
 }
 
 .row{
@@ -82,6 +82,11 @@ button{
     border-radius: 20px;
     border-color: #000;
     cursor: pointer;
+    transition: transform 0.5s;
+}
+
+button:hover{
+    transform: rotate3d(100, 70, 0, 25deg);
 }
 
 .card{    
@@ -94,7 +99,7 @@ button{
     margin: 10px 15px;
     background-position: center;
     background-size: cover;
-    transition: transform 0.5s;
+    transition: transform ease-in-out 0.5s;
     width: 330px;
     background-image: url(images/Yrt5Ipj-VLo.jpg);
     
@@ -103,13 +108,13 @@ button{
 .col-cards{
     margin-left: 120px
 }
-/* .card1{
+.card1{
     background-image: url(images/BX0mP9Y5PaM.jpg);
 
 }
 
 .card2{
-    background-image: url(images/techies.jpg);
+    background-image: url(images/ulstNeZhawQ.jpg);
     
 }
 
@@ -118,21 +123,24 @@ button{
 }
 
 .card4{
-    background-image: url(images/shadow_friend.png);
-} */
+    background-image: url(images/bara.png);
+}
 
 .card:hover{
     transform: translateY(-10px);
 }
 
 h5{
-    text-shadow: 0px 0px 5px white;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     font-size: 30px;
 }
 
 .card p{
-text-shadow: 1px 1px 2px white;
-font-size: 19px;
+    /* text-shadow: 1px 1px 3px white; */
+    font-size: 19px;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 @media screen and (max-width:1405px) {
@@ -142,7 +150,6 @@ font-size: 19px;
     }
 
     .card p{
-        text-shadow: 0 0 15px white;
         font-size: 13px;
         line-height: 13px;
         }
@@ -192,7 +199,6 @@ font-size: 19px;
         }
     
         .card p{
-            text-shadow: 0 0 15px white;
             font-size: 13px;
             line-height: 13px;
             }
@@ -222,7 +228,6 @@ font-size: 19px;
         .container{
             width: 100%;
             height: 100vh;
-            background-color: rgb(255, 255, 255);
             padding-left: 8%;
             padding-right: 8%;
             box-sizing: border-box;
@@ -269,7 +274,6 @@ font-size: 19px;
         }
     
         .card p{
-            text-shadow: 0 0 15px white;
             font-size: 13px;
             line-height: 13px;
             }
@@ -304,7 +308,6 @@ font-size: 19px;
         .container{
             width: 100%;
             height: 100vh;
-            background-color: rgb(255, 255, 255);
             padding-left: 4%;
             padding-right: 4%;
             box-sizing: border-box;
@@ -319,7 +322,6 @@ font-size: 19px;
             }
         
             .card p{
-                text-shadow: 0 0 15px white;
                 font-size: 13px;
                 line-height: 13px;
                 }
@@ -349,7 +351,6 @@ font-size: 19px;
             .container{
                 width: 100%;
                 height: 100vh;
-                background-color: rgb(255, 255, 255);
                 padding-left: 8%;
                 padding-right: 8%;
                 box-sizing: border-box;
